@@ -1,0 +1,18 @@
+---
+group: HS Code
+title: Suggest HSCode matches
+layout: suggest-hscode/views/_master
+---
+{% from "components/button/_macro.njk" import onsButton %}
+
+{% block main %}
+    <h1>Start the {group}</h1>
+    <p>Try the HS Code sample.</p>
+    {{
+        onsButton({
+            "text": "Start",
+            "classes": "ons-u-mt-m",
+            "url": pageInfo.rootPath + "/hscode.html"
+        })
+    }}
+{% endblock %}
