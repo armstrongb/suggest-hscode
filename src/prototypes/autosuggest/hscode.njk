@@ -1,19 +1,20 @@
 ---
 group: HS Code
 title: Suggest HSCode matches
-layout: suggest-hscode/views/_master
+layout: autosuggest/views/_master
 ---
+
 {% from "components/button/_macro.njk" import onsButton %}
 {% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
 
 {% block main %}
-    <h1>What is your product category?</h1>
-    <p>Try the HS Code sample.</p>
+    <h1>What is your product or service category?</h1>
+    <p>We will use this information to provide you with customised content relevant to your sector and products or services.</p>
     {{
         onsAutosuggest ({
             "id" : "hscode-test",
             "label": {
-                "text": "Start typing some stuff",
+                "text": "Start typing your product or service here.",
                 "description": "Enter your own answer or select from suggestions",
                 "id": "hscode-test-label"
             },
@@ -33,9 +34,9 @@ layout: suggest-hscode/views/_master
     }}
     {{
         onsButton({
-            "text": "Start",
+            "text": "Next",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/hscode.html"
+            "url": pageInfo.rootPath + "/uk-location.html"
         })
     }}
 {% endblock %}

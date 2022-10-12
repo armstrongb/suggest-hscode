@@ -1,10 +1,14 @@
 [
-    {
-      "en": "Confectionary",
-      "tags":["chocolate","candy","sweets","gum","hard candy","caramel","chocolate bars"]
-    },
-    {
-      "en": "Building materials",
-      "tags":["gravel","aggregates","bricks","sand"]
-    }
-  ]
+  {
+    "en": "Cocoa and cocoa preparations",
+    "tags":["18","cocoa beans","cocoa shells","cocoa waste","cocoa paste","cocoa butter","cocoa powder","chocolate"]
+  },
+  {
+    "en": "Sugar and sugar confectionary",
+    "tags":["17","cane","beet sugar","sucrose","lactose","maltose","glucose","fructose","sugar syrup","artificial honey","caramel","molasses","refined sugar","white chocolate"]
+  },
+  {
+    "en": "Building materials",
+    "tags":["gravel","aggregates","bricks","sand"]
+  }
+]

@@ -1,0 +1,41 @@
+---
+group: HS Code
+title: Suggest HSCode matches
+layout: suggest-hscode/views/_master
+---
+{% from "components/button/_macro.njk" import onsButton %}
+{% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
+
+{% block main %}
+    <h1>Where in the UK are you expecting to expand your business?</h1>
+    <p>Supporting copy to explain the reason for asking.</p>
+    {{
+        onsAutosuggest ({
+            "id" : "hscode-test",
+            "label": {
+                "text": "Enter a region, city or county",
+                "description": "Start typing for suggestions.",
+                "id": "hscode-test-label"
+            },
+            "classes": "ons-input--w-30",
+            "moreResults": "Continue entering to improve suggestions",
+            "resultsTitle": "Suggestions",
+            "resultsTitleId": "country-of-birth-suggestions",
+            "autosuggestData": "../../data/uk-location-data.json",
+            "allowMultiple" : "false",
+            "instructions": "Use up and down keys to navigate suggestions once you\'ve typed more than two characters. Use the enter key to select a suggestion. Touch device users, explore by touch or with swipe gestures.",
+            "minChars" : "3",
+            "autocomplete" : "off",
+            "noResults": "No suggestions found. You can enter your own answer",
+            "typeMore": "Continue entering to get suggestions"
+        })
+
+    }}
+    {{
+        onsButton({
+            "text": "Next",
+            "classes": "ons-u-mt-m",
+            "url": pageInfo.rootPath + "/uk-location.html"
+        })
+    }}
+{% endblock %}

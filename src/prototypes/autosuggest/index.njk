@@ -1,13 +1,13 @@
 ---
 group: HS Code
 title: Suggest HSCode matches
-layout: suggest-hscode/views/_master
+layout: autosuggest/views/_master
 ---
 {% from "components/button/_macro.njk" import onsButton %}
 
 {% block main %}
-    <h1>Start the {group}</h1>
-    <p>Try the HS Code sample.</p>
+    <h1>Start the {{page.group}} prototype</h1>
+    <p>Place introduction here.</p>
     {{
         onsButton({
             "text": "Start",
