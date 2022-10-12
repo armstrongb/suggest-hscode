@@ -1,11 +1,27 @@
 [
   {
-    "en": "Cocoa and cocoa preparations",
-    "tags":["18","cocoa beans","cocoa shells","cocoa waste","cocoa paste","cocoa butter","cocoa powder","chocolate"]
+    "en": "Live animals",
+    "tags":["01","horses","asses","mules","hinnies","bovine","cows","heifers","bibos","bulls","buffalo","swine","sheep","lambs","goats","poultry","fowls","gallus domesticus","ducks","geese","turkeys","guinea fowl","chicken","sows"]
+  },
+  {
+    "en":"Meat and edible meat offal",
+    "tags":["02","bovine","swine","sheep","goats","horses","asses","mules","hinnies","poultry","pig","pig fat","poultry fat","salted"]
+  },
+  {
+    "en":"Fish and crustaceans, molluscs and other aquatic invertebrates",
+    "tags":["03","live fish","fish","fish fillets","dried fish","brine","brined","pellets","shell","flours","meals"]
+  },
+  {
+    "en":"Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates, or of insects",
+    "tags":["16","sausages","offal","blood","food","preserved meat","caviar","caviar substitute","fish eggs"]
   },
   {
     "en": "Sugar and sugar confectionary",
     "tags":["17","cane","beet sugar","sucrose","lactose","maltose","glucose","fructose","sugar syrup","artificial honey","caramel","molasses","refined sugar","white chocolate"]
+  },
+  {
+    "en": "Cocoa and cocoa preparations",
+    "tags":["18","cocoa beans","cocoa shells","cocoa waste","cocoa paste","cocoa butter","cocoa powder","chocolate"]
   },
   {
     "en": "Building materials",
