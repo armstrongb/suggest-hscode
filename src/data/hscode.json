@@ -5,7 +5,7 @@
   },
   {
     "en":"Meat and edible meat offal",
-    "tags":["02","bovine","swine","sheep","goats","horses","asses","mules","hinnies","poultry","pig","pig fat","poultry fat","salted"]
+    "tags":["02","bovine","swine","sheep","goats","horses","asses","mules","hinnies","poultry","pig","pig fat","poultry fat","salted","beef"]
   },
   {
     "en":"Fish and crustaceans, molluscs and other aquatic invertebrates",
@@ -26,5 +26,9 @@
   {
     "en": "Building materials",
     "tags":["gravel","aggregates","bricks","sand"]
+  },
+  {
+    "en":"Financial services",
+    "tags":["Banking","finance","Consultancy (IT)","Translation"]
   }
 ]
