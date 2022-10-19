@@ -18,5 +18,9 @@
   {
     "en":"London",
     "tags":["Westminster","Islington","Brixton","Lambeth","Chelsea","City","Clerkenwell","Covent Garden","Docklands","Hackney","Greater London"]
+  },
+  {
+    "en":"London (but I'm open to considering other locations)",
+    "tags":["Westminster","Islington","Brixton","Lambeth","Chelsea","City","Clerkenwell","Covent Garden","Docklands","Hackney","Greater London"]
   }
 ]
