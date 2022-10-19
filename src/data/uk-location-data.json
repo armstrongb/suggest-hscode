@@ -1,7 +1,7 @@
 [
   {
     "en": "Wales",
-    "tags":["Aberyswyth","Aberaeron","Ceredigion","Cardiff","Swansea","Bangor","Newport (Wales)","Gwent","Glamorgan","Carmarthen"]
+    "tags":["Aberyswyth","Aberaeron","Ceredigion","Cardiff","Swansea","Bangor","Newport (Wales)","Gwent","Glamorgan","Carmarthen","Powys"]
   },
   {
     "en": "South West",
@@ -9,7 +9,7 @@
   },
   {
     "en": "Scotland",
-    "tags":["Glasgow","Edinburgh","Highlands"]
+    "tags":["Glasgow","Edinburgh","Highlands","Aberdeen","Inverness"]
   },
   {
     "en": "West Midlands",
@@ -17,6 +17,6 @@
   },
   {
     "en":"London",
-    "tags":["Westminster","Islington","Brixton","Lambeth","Chelsea","City","Clerkenwell","Covent Garden","Docklands","Hackney"]
+    "tags":["Westminster","Islington","Brixton","Lambeth","Chelsea","City","Clerkenwell","Covent Garden","Docklands","Hackney","Greater London"]
   }
 ]
