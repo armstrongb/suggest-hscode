@@ -12,12 +12,16 @@
     "tags":["03","live fish","fish","fish fillets","dried fish","brine","brined","pellets","shell","flours","meals"]
   },
   {
+    "en":"Cereals",
+    "tags":["wheat","meslin","rye","barley","oats","maize","corn","rice","grain sorghum","buckwheat","millet","canary seed","durum wheat","spelt","rye seed","long grain","medium grain","round grain","brown rice","husked rice","basmati","aromatic rice","Dehradun","Taraori","Ranbir","Pusa Basmati","parboiled rice","milled rice","broken rice","flint maize"]
+  },
+  {
     "en":"Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates, or of insects",
-    "tags":["16","sausages","offal","blood","food","preserved meat","caviar","caviar substitute","fish eggs"]
+    "tags":["16","sausages","offal","blood","food","preserved meat","caviar","caviar substitute","fish eggs","salami"]
   },
   {
     "en": "Sugar and sugar confectionary",
-    "tags":["17","cane","beet sugar","sucrose","lactose","maltose","glucose","fructose","sugar syrup","artificial honey","caramel","molasses","refined sugar","white chocolate"]
+    "tags":["17","cane","beet sugar","sucrose","lactose","maltose","glucose","fructose","sugar syrup","artificial honey","caramel","molasses","refined sugar","white chocolate", "chemically pure sucrose"]
   },
   {
     "en": "Cocoa and cocoa preparations",
