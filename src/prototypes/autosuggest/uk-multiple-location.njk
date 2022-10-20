@@ -8,7 +8,7 @@ layout: autosuggest/views/_master
 
 {% block main %}
     <h1>Where in the UK are you expecting to expand your business?</h1>
-    <p>Supporting copy to explain the reason for asking.</p>
+    <p>Select up to three locations you would consider for expanding your business.</p>
     {{
         onsAutosuggest ({
             "id" : "hscode-test",
@@ -22,7 +22,7 @@ layout: autosuggest/views/_master
             "resultsTitle": "Suggestions",
             "resultsTitleId": "country-of-birth-suggestions",
             "autosuggestData": "../../data/uk-location-data.json",
-            "allowMultiple" : "false",
+            "allowMultiple" : true,
             "instructions": "Use up and down keys to navigate suggestions once you\'ve typed more than two characters. Use the enter key to select a suggestion. Touch device users, explore by touch or with swipe gestures.",
             "minChars" : "3",
             "autocomplete" : "off",
@@ -35,7 +35,7 @@ layout: autosuggest/views/_master
         onsButton({
             "text": "Next",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/uk-multiple-location.html"
+            "url": pageInfo.rootPath + "/uk-location.html"
         })
     }}
 {% endblock %}
