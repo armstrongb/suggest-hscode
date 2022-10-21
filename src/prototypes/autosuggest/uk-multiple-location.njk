@@ -1,21 +1,31 @@
 ---
-group: HS Code
+group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
 ---
+{% from "components/question/_macro.njk" import onsQuestion %}
+{% from "components/checkboxes/_macro.njk" import onsCheckboxes %}
 {% from "components/button/_macro.njk" import onsButton %}
 {% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
 
 {% block main %}
-    <h1>Where in the UK are you expecting to expand your business?</h1>
-    <p>Select up to three locations you would consider for expanding your business.</p>
+{% call onsQuestion({
+    "title": "Where in the UK are you expecting to expand your business?",
+    "description": "Select up to three locations you would consider for expanding your business.", 
+    "legendIsQuestionTitle": true,
+    "classes": "ons-u-mt-no",
+    "justification": {
+            "title": "Why we ask this question",
+            "content": "<p>We ask this question in order to provide you with tailored information about the region you select.</p>"
+        }
+}) %}
     {{
         onsAutosuggest ({
-            "id" : "hscode-test",
+            "id" : "uk-location-02",
             "label": {
                 "text": "Enter a region, city or county",
                 "description": "Start typing for suggestions.",
-                "id": "hscode-test-label"
+                "id": "uk-location-02-label"
             },
             "classes": "ons-input--w-30",
             "moreResults": "Continue entering to improve suggestions",
@@ -32,10 +42,30 @@ layout: autosuggest/views/_master
 
     }}
     {{
-        onsButton({
-            "text": "Next",
-            "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/uk-location.html"
+        onsCheckboxes({
+            "checkboxesLabel": "Or",
+            "dontWrap": true,
+            "checkboxesLabelClasses": "ons-u-mt-m ons-u-fw-b",
+            "name": "undecided",
+            "borderless": true,
+            "checkboxes": [
+                {
+                    "id": "undecided",
+                    "label": {
+                        "text": "I have not decided on a location yet"
+                    },
+                    "value": "undecided"
+                }
+            ]
         })
     }}
+    {{
+        onsButton({
+            "text": "Finish",
+            "classes": "ons-u-mt-m",
+            "variants": ['secondary','small'],
+            "url": pageInfo.rootPath + "/thankyou.html"
+        })
+    }}
+    {% endcall %}
 {% endblock %}

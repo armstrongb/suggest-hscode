@@ -1,14 +1,11 @@
-# prototype-kit-template
+# Prototype
+A prototype to test the use of autosuggest pattern for two questions.
+
+## Uses
+
+## prototype-kit-template
 
 This is a template for a [prototype-kit](https://github.com/ONSdigital/prototype-kit) project which can be used as a starting point when creating new prototypes. This provides access to the ONS design system to render page layouts and components.
-
-## Getting setup with this template
-
-Install the latest version of the ONS design system:
-
-```bash
-yarn add @ons/design-system
-```
 
 ## How to use this project?
 

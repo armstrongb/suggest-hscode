@@ -1,21 +1,26 @@
 ---
-group: HS Code
+group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
 ---
+{% from "components/question/_macro.njk" import onsQuestion %}
+{% from "components/checkboxes/_macro.njk" import onsCheckboxes %}
 {% from "components/button/_macro.njk" import onsButton %}
 {% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
 
 {% block main %}
-    <h1>Where in the UK are you expecting to expand your business?</h1>
-    <p>Supporting copy to explain the reason for asking.</p>
+    {% call onsQuestion({
+    "title": "Where in the UK are you expecting to expand your business?",
+    "legendIsQuestionTitle": true,
+    "classes": "ons-u-mt-no"
+}) %}
     {{
         onsAutosuggest ({
-            "id" : "hscode-test",
+            "id" : "uk-location-01",
             "label": {
                 "text": "Enter a region, city or county",
                 "description": "Start typing for suggestions.",
-                "id": "hscode-test-label"
+                "id": "uk-location-01-label"
             },
             "classes": "ons-input--w-30",
             "moreResults": "Continue entering to improve suggestions",
@@ -29,13 +34,31 @@ layout: autosuggest/views/_master
             "noResults": "No suggestions found. You can enter your own answer",
             "typeMore": "Continue entering to get suggestions"
         })
-
+    }}
+    {{
+        onsCheckboxes({
+            "checkboxesLabel": "Or",
+            "dontWrap": true,
+            "checkboxesLabelClasses": "ons-u-mt-m ons-u-fw-b",
+            "name": "undecided",
+            "borderless": true,
+            "checkboxes": [
+                {
+                    "id": "undecided",
+                    "label": {
+                        "text": "I have not decided on a location yet"
+                    },
+                    "value": "undecided"
+                }
+            ]
+        })
     }}
     {{
         onsButton({
-            "text": "Next",
+            "text": "Next question",
             "classes": "ons-u-mt-m",
             "url": pageInfo.rootPath + "/uk-multiple-location.html"
         })
     }}
+    {% endcall %}
 {% endblock %}
