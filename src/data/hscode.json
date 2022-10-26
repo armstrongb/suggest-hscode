@@ -34,5 +34,9 @@
   {
     "en":"Financial services",
     "tags":["Banking","finance","Consultancy (IT)","Translation"]
+  },
+  {
+    "en":"Document preparation services (NAICS - 561410)",
+    "tags":["accessibility","a11y","audio typing","transcription","accessible","typing","Braille","audio","large print","Easy Read","E-text","BSL"]
   }
 ]
