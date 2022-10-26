@@ -1,0 +1,49 @@
+---
+group: Autosuggest
+title: Suggest HSCode matches
+layout: autosuggest/views/_master
+---
+{% from "components/question/_macro.njk" import onsQuestion %}
+{% from "components/button/_macro.njk" import onsButton %}
+{% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
+
+{% block main %}
+    {# <h1>What is your product or service category?</h1> #}
+    {# <p>We will use this information to provide you with customised content relevant to your sector and products or services.</p> #}
+    {# https://ons-design-system.netlify.app/components/autosuggest/ docs #}
+    {% call onsQuestion({
+    "title": "What is your businesses sector?",
+    "legendIsQuestionTitle": true,
+    "classes": "ons-u-mt-no"
+}) %}
+    {{
+        onsAutosuggest ({
+            "id" : "sector-test",
+            "label": {
+                "text": "Start typing your business sector.",
+                "description": "Enter your own answer or select from suggestions",
+                "id": "hscode-test-label"
+            },
+            "classes": "ons-input--w-30",
+            "moreResults": "Continue entering to improve suggestions",
+            "resultsTitle": "Suggestions",
+            "resultsTitleId": "sector-suggestions",
+            "autosuggestData": "/data/sectors.json", 
+            "allowMultiple" : true,
+            "instructions": "Use up and down keys to navigate suggestions once you\'ve typed more than two characters. Use the enter key to select a suggestion. Touch device users, explore by touch or with swipe gestures.",
+            "minChars" : "3",
+            "autocomplete" : "off",
+            "noResults": "No suggestions found. You can enter your own answer",
+            "typeMore": "Continue entering to get suggestions"
+        })
+
+    }}
+    {{
+        onsButton({
+            "text": "Next question",
+            "classes": "ons-u-mt-m",
+            "url": pageInfo.rootPath + "/uk-location.html"
+        })
+    }}
+    {% endcall %}
+{% endblock %}

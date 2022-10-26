@@ -1,0 +1,126 @@
+[
+  {
+    "en": "Advanced engineering",
+    "tags":[""]
+  },
+  {
+    "en":"Aerospace",
+    "tags":["aeroplane","jet","helicopter","wings","turbofan","propellor"]
+  },
+  {
+    "en":"Agriculture",
+    "tags":["farming"]
+  },
+  {
+    "en":"Automotive",
+    "tags":["cars","motorcycle"]
+  },
+  {
+    "en":"Biotech & Pharmaceuticals",
+    "tags":["medical supplies","hospital","health"]
+  },
+  {
+    "en": "Business & consumer services",
+    "tags":[""]
+  },
+  {
+    "en": "Chemical",
+    "tags":[""]
+  },
+  {
+    "en": "Construction",
+    "tags":[""]
+  },
+  {
+    "en":"Creative",
+    "tags":["media","television","streaming","theatre","design","art","movies"]
+  },
+  {
+    "en":"Defense & Security",
+    "tags":[""]
+  },
+  {
+    "en":"Education",
+    "tags":["teaching","school","university","teacher"]
+  },
+  {
+    "en":"Financial & Professional Services",
+    "tags":[""]
+  },
+  {
+    "en":"Food & Drink",
+    "tags":[""]
+  },
+  {
+    "en":"Healthcare & Medical",
+    "tags":[""]
+  },
+  {
+    "en":"Infrastructure Air & Sea",
+    "tags":[""]
+  },
+  {
+    "en":"Leisure",
+    "tags":[""]
+  },
+  {
+    "en":"Logistics",
+    "tags":[""]
+  },
+  {
+    "en":"Manufacturing",
+    "tags":[""]
+  },
+  {
+    "en":"Marine",
+    "tags":[""]
+  },
+  {
+    "en":"Maritime Services",
+    "tags":[""]
+  },
+  {
+    "en":"Mining",
+    "tags":[""]
+  },
+  {
+    "en":"Nuclear",
+    "tags":[""]
+  },
+  {
+    "en":"Oil & Gas",
+    "tags":["petroleum","diesel","distilate","exploration","geology"]
+  },
+  {
+    "en":"Rail",
+    "tags":["train","freight","wagon","steam","locomotive","tram","carriage","station"]
+  },
+  {
+    "en":"Renewable",
+    "tags":[""]
+  },
+  {
+    "en":"Retail",
+    "tags":[""]
+  },
+  {
+    "en":"Software",
+    "tags":[""]
+  },
+  {
+    "en":"Space",
+    "tags":["rocket","propellant","satellite","orbital platforms","ground station","engineering"]
+  },
+  {
+    "en":"Sports Events",
+    "tags":["football","rugby","tennis","cycling","basketball","netball","table tennis","gymnastics"]
+  },
+  {
+    "en":"Tech Communications",
+    "tags":["telephone","telephony","VOIP","mobile phone"]
+  },
+  {
+    "en":"Tech Hardware",
+    "tags":["computer"]
+  }
+]
