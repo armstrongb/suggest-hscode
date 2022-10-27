@@ -38,5 +38,9 @@
   {
     "en":"Document preparation services (NAICS - 561410)",
     "tags":["accessibility","a11y","audio typing","transcription","accessible","typing","Braille","audio","large print","Easy Read","E-text","BSL"]
+  },
+  {
+    "en":"Media services",
+    "tags":["media","acting","television","broadcast","streaming","training","theatre","teaching","performance","consultancy","business consultancy","export consultancy"]
   }
 ]
