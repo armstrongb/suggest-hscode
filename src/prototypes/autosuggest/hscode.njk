@@ -8,14 +8,14 @@ layout: autosuggest/views/_master
 {% from "components/autosuggest/_macro.njk" import onsAutosuggest %}
 
 {% block main %}
-    <h1>What is your product or service category?</h1>
+    <h1>What is your product or service?</h1>
     <p>We will use this information to provide you with customised content relevant to your sector and products or services.</p>
     {# https://ons-design-system.netlify.app/components/autosuggest/ docs #}
     {{
         onsAutosuggest ({
             "id" : "hscode-test",
             "label": {
-                "text": "Start typing your product or service here.",
+                "text": "Type your product or service here",
                 "description": "Enter your own answer or select from suggestions",
                 "id": "hscode-test-label"
             },
