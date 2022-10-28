@@ -2,3 +2,26 @@
 $dit-great_navy:#04043f;
 .ons-footer__poweredby {display: none;}
 .ons-header__main {background-color: $dit-great_navy;}
+
+.ons-external-link:hover {
+    path {
+        fill: rgba(255,255,255,1);
+        }
+}
+.ons-footer__ogl-img, 
+.ons-external-link__icon {
+    path {
+        fill: rgba(255,255,255,0.6);
+    }
+}
+.ons-footer__body {
+    background-color: $dit-great_navy;
+    color: rgba(255,255,255,0.6);
+    a {
+        color: rgba(255,255,255,0.6);
+        &:hover{
+            color: rgba(255,255,255,1);
+            text-decoration-color: rgba(255,255,255,1)
+        }
+    }
+}
