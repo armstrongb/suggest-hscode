@@ -2,6 +2,8 @@
 group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
+prevPage: hscode
+nextPage: uk-multiple-location
 ---
 {% from "components/question/_macro.njk" import onsQuestion %}
 {% from "components/checkboxes/_macro.njk" import onsCheckboxes %}
@@ -57,7 +59,7 @@ layout: autosuggest/views/_master
         onsButton({
             "text": "Next question",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/uk-multiple-location.html"
+            "url": pageInfo.rootPath +'/'+ pageInfo.nextPage +'.html'
         })
     }}
     {% endcall %}
