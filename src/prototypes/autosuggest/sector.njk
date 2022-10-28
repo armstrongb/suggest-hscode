@@ -2,6 +2,8 @@
 group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
+prevPage: thankyou
+nextPage: thankyou
 ---
 {% from "components/question/_macro.njk" import onsQuestion %}
 {% from "components/button/_macro.njk" import onsButton %}
@@ -41,9 +43,10 @@ layout: autosuggest/views/_master
     }}
     {{
         onsButton({
-            "text": "Next question",
+            "text": "Finish",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/uk-location.html"
+            "variants": ['secondary','small'],
+            "url": pageInfo.rootPath +'/'+ pageInfo.nextPage +'.html'
         })
     }}
     {% endcall %}
