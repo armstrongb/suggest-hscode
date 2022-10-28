@@ -2,6 +2,8 @@
 group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
+prevPage: uk-location
+nextPage: thankyou
 ---
 {% from "components/question/_macro.njk" import onsQuestion %}
 {% from "components/checkboxes/_macro.njk" import onsCheckboxes %}
@@ -64,7 +66,7 @@ layout: autosuggest/views/_master
             "text": "Finish",
             "classes": "ons-u-mt-m",
             "variants": ['secondary','small'],
-            "url": pageInfo.rootPath + "/thankyou.html"
+            "url": pageInfo.rootPath +'/'+ pageInfo.nextPage +'.html'
         })
     }}
     {% endcall %}

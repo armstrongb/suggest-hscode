@@ -19,9 +19,9 @@
         "ariaLabel": 'Breadcrumbs',
         "itemsList": [
             {
-                "linkClasses": 'js-previous' if prevPage else '',
-                "url": pageInfo.rootPath + "/" + prevPage + '.html',
-                "text": 'Previous'
+                "linkClasses": 'js-previous' if pageInfo.prevPage else '',
+                "url": pageInfo.rootPath + "/" + pageInfo.prevPage + '.html',
+                "text": 'Back'
             }
         ]
     }

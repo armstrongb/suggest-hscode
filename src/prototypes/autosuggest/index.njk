@@ -2,9 +2,10 @@
 group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
+prevPage: index
+nextPage: hscode
 ---
 {% from "components/button/_macro.njk" import onsButton %}
-
 {% block main %}
     <h1>Task 2</h1>
     <p>In this activity we will explore how we can best capture your business offering and understanding of the UK market.</p>
@@ -12,7 +13,7 @@ layout: autosuggest/views/_master
         onsButton({
             "text": "Start the prototype",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/hscode.html"
+            "url": pageInfo.rootPath +'/'+ pageInfo.nextPage +'.html'
         })
     }}
 {% endblock %}

@@ -2,6 +2,8 @@
 group: Autosuggest
 title: Suggest HSCode matches
 layout: autosuggest/views/_master
+prevPage: thankyou
+nextPage: thankyou
 ---
 {% from "components/question/_macro.njk" import onsQuestion %}
 {% from "components/button/_macro.njk" import onsButton %}
@@ -12,7 +14,7 @@ layout: autosuggest/views/_master
     {# <p>We will use this information to provide you with customised content relevant to your sector and products or services.</p> #}
     {# https://ons-design-system.netlify.app/components/autosuggest/ docs #}
     {% call onsQuestion({
-    "title": "What is your businesses sector?",
+    "title": "What is your business sector?",
     "description": "You can enter multiple sectors if your business covers more than one.",
     "legendIsQuestionTitle": true,
     "classes": "ons-u-mt-no"
@@ -41,9 +43,10 @@ layout: autosuggest/views/_master
     }}
     {{
         onsButton({
-            "text": "Next question",
+            "text": "Finish",
             "classes": "ons-u-mt-m",
-            "url": pageInfo.rootPath + "/uk-location.html"
+            "variants": ['secondary','small'],
+            "url": pageInfo.rootPath +'/'+ pageInfo.nextPage +'.html'
         })
     }}
     {% endcall %}
