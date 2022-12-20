@@ -13,7 +13,7 @@
   },
   {
     "en":"Airports",
-    "tags":["Airports"]
+    "tags":["Airports","infrastructure"]
   },
   {
     "en":"Automotive",
@@ -33,19 +33,31 @@
   },
   {
     "en": "Construction",
-    "tags":[""]
+    "tags":["infrastructure"]
   },
   {
-    "en":"Creative",
-    "tags":["media","television","streaming","theatre","design","art","movies"]
+    "en":"Consumer & retail",
+    "tags":["clothing","footwear","fashion","clothes","accessories","bags","luggage","apparel","leisure wear","sports wear","cosmetics","beauty","furniture","furnishings","consumer electronics","giftware","gifts","household goods","jewellry","leisure","tourism","shoes","jeans","travel","hotel","hospitality","supermarkets","tableware","textiles","interior textiles","carpets","books","printed media","stationery","musical instruments"]
+  },
+  {
+    "en":"Creative industries",
+    "tags":["design","digital services","equipment","experience economy","film and tv","games","immersive technology","music","performing arts","publishing","industrial design","interior design","agencies","social media platforms","photo and cinema","attractions","hardware","production and finance","sales and distribution","visual effects (vfx) and motion graphics","development","esports"]
   },
   {
     "en":"Defense & Security",
-    "tags":[""]
+    "tags":["air","land","maritime","air electronic warfare","aircrew training","battlespace management","complex weapons","fast jet","ground based air defence","gbad","intelligence surveillance target acquisition and reconnaissance (istar)","large aircraft","platform protection","support and maintenance","unmanned air systems (uas)","chemical, biological, radiological and nuclear","(cbrn)","combat","combat support","counter explosive ordnance (c-eo)","cyber","maritime aviation","non-traditional and development","sub-surface","support and infrastructure","surface"]
   },
   {
-    "en":"Education",
-    "tags":["teaching","school","university","teacher"]
+    "en":"Education & Training",
+    "tags":["curriculum, qualifications, assessment, inspection and quality assurance","early years","educational technology","english language training","higher education","schools","special educational needs and disabilities","support services","technical and vocational education and training","universities","consultancy and professional services","equipment and supplies","colleges and further education","teaching","school","university","teacher"]
+  },
+  {
+    "en":"Energy",
+    "tags":["civil nuclear","oil and gas","renewable energy","advanced technologies and small modular reactors","decommissioning","waste management","carbon capture technology and storage","biomass","electrical networks","energy storage","fixed-bottom offshore wind","floating offshore wind","off-shore","geothermal","hydro","hydrogen","industrial decarbonisation","low carbon heating","marine and tidal","onshore wind","on-shore","solar","waste to value","wave","tidal"]
+  },
+  {
+    "en":"Environment",
+    "tags":["environment","air pollution and noise control","clean growth services","environmental monitoring","marine pollution control","sanitation and remediation","waste management and recycling"]
   },
   {
     "en":"Financial & Professional Services",
@@ -53,7 +65,7 @@
   },
   {
     "en":"Food & Drink",
-    "tags":[""]
+    "tags":["casual dining","dining"]
   },
   {
     "en":"Healthcare & Medical",
