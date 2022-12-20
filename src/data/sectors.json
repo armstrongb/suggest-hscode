@@ -1,59 +1,75 @@
 [
   {
     "en": "Advanced engineering",
-    "tags":[""]
+    "tags":["mechanical, electrical and process engineering","metallurgical process plant","metals, minerals and materials","ceramics","composite materials","elastomers and rubbers","metals","Minerals","Plastics"]
   },
   {
     "en":"Aerospace",
-    "tags":["aeroplane","jet","helicopter","wings","turbofan","propellor"]
+    "tags":["aircraft design","component manufacturing","engines","maintenance","manufacturing and assembly","aeroplane","jet","helicopter","wings","turbofan","propellor","UAV","unmanned aerial vehicles"]
   },
   {
-    "en":"Agriculture, Forestry & Fishing",
-    "tags":["farming"]
+    "en":"Agriculture, Horticulture, Fisheries and pets",
+    "tags":["arable crops","fertilisers and pesticides","seeds and plant varieties","soil management systems","engineering and precision farming","machinery","aquaculture","forestry","logging","fruit production","vegetable production","farming","livestock","horses","breeding stock","veterinary services","livestock feed","animal feed"]
+  },
+  {
+    "en":"Airports",
+    "tags":["Airports","infrastructure"]
   },
   {
     "en":"Automotive",
-    "tags":["cars","motorcycle","van"]
+    "tags":["cars","motorcycle","van","component manufacturing","bodies and coachwork","electronic components","engines and transmission","tyres","design","maintenance","manufacturing and assembly","agricultural machinery","bicycles","caravans","cars","lorries","motorcycles","trailers","motorsport","retail (automotive)"]
   },
   {
     "en":"Biotech & Pharmaceuticals",
-    "tags":["medical supplies","hospital","health"]
+    "tags":["medical supplies","hospital","health","digital and data","manufacturing","pharmaceutical manufacturing","marketing and sales","professional services","research and development"]
   },
   {
     "en": "Business & consumer services",
     "tags":[""]
   },
   {
-    "en": "Chemical",
-    "tags":[""]
+    "en": "Chemicals",
+    "tags":["agricultural chemicals","basic chemicals","cleaning preparations","paint","adhesive products","synthetic materials"]
   },
   {
     "en": "Construction",
-    "tags":[""]
+    "tags":["infrastructure"]
   },
   {
-    "en":"Creative",
-    "tags":["media","television","streaming","theatre","design","art","movies"]
+    "en":"Consumer & retail",
+    "tags":["clothing","footwear","fashion","clothes","accessories","bags","luggage","apparel","leisure wear","sports wear","cosmetics","beauty","furniture","furnishings","consumer electronics","giftware","gifts","household goods","jewellry","leisure","tourism","shoes","jeans","travel","hotel","hospitality","supermarkets","tableware","textiles","interior textiles","carpets","books","printed media","stationery","musical instruments"]
+  },
+  {
+    "en":"Creative industries",
+    "tags":["design","digital services","equipment","experience economy","film and tv","games","immersive technology","music","performing arts","publishing","industrial design","interior design","agencies","social media platforms","photo and cinema","attractions","hardware","production and finance","sales and distribution","visual effects (vfx) and motion graphics","development","esports"]
   },
   {
     "en":"Defense & Security",
-    "tags":[""]
+    "tags":["air","land","maritime","air electronic warfare","aircrew training","battlespace management","complex weapons","fast jet","ground based air defence","gbad","intelligence surveillance target acquisition and reconnaissance (istar)","large aircraft","platform protection","support and maintenance","unmanned air systems (uas)","chemical, biological, radiological and nuclear","(cbrn)","combat","combat support","counter explosive ordnance (c-eo)","cyber","maritime aviation","non-traditional and development","sub-surface","support and infrastructure","surface"]
   },
   {
-    "en":"Education",
-    "tags":["teaching","school","university","teacher"]
+    "en":"Education & Training",
+    "tags":["curriculum, qualifications, assessment, inspection and quality assurance","early years","educational technology","english language training","higher education","schools","special educational needs and disabilities","support services","technical and vocational education and training","universities","consultancy and professional services","equipment and supplies","colleges and further education","teaching","school","university","teacher"]
+  },
+  {
+    "en":"Energy",
+    "tags":["civil nuclear","oil and gas","renewable energy","advanced technologies and small modular reactors","decommissioning","waste management","carbon capture technology and storage","biomass","electrical networks","energy storage","fixed-bottom offshore wind","floating offshore wind","off-shore","geothermal","hydro","hydrogen","industrial decarbonisation","low carbon heating","marine and tidal","onshore wind","on-shore","solar","waste to value","wave","tidal"]
+  },
+  {
+    "en":"Environment",
+    "tags":["environment","air pollution and noise control","clean growth services","environmental monitoring","marine pollution control","sanitation and remediation","waste management and recycling"]
   },
   {
     "en":"Financial & Professional Services",
-    "tags":[""]
+    "tags":["accountancy services","asset management","banking","commercial banking","digital banking","investment banking","private banking","retail banking","business and consumer services","commercial real estate services","contact centres","hr services","market research","marketing services","shared service centres","capital markets","hedge funds","private equity","venture capital","financial technology","blockchain and digital currencies","insurance technology","legal technology","property technology","regulatory technology","wealth technology","foreign exchange","insurance","commercial insurance","life insurance","motor insurance","travel insurance","legal services","commercial legal services","listings","management consultancy"]
   },
   {
     "en":"Food & Drink",
-    "tags":[""]
+    "tags":["casual dining","dining","alcoholic drinks","bakery products","brewing","dairy products","food and drink manufacturing","free from","allergen free food","frozen and chilled foods","fruit and vegetables","meat products","non-alcoholic drinks","cordial","juice drinks","organic food","pet food","ready meals","secondary food processing","bread","baking"]
   },
   {
     "en":"Healthcare & Medical",
-    "tags":[""]
+    "tags":["digital and data","education and training","health systems management","infrastructure","lab services","laboratory services","pathology","social care"]
   },
   {
     "en":"Infrastructure Air & Sea",
@@ -77,11 +93,15 @@
   },
   {
     "en":"Maritime Services",
-    "tags":[""]
+    "tags":["marine engineering","ports and terminals","infrastructure"]
+  },
+  {
+    "en":"Medical devices and equipment",
+    "tags":["diagnostics","medical diagnostics","digital and data","medical supplies and equipment"]
   },
   {
     "en":"Mining",
-    "tags":[""]
+    "tags":["environmental monitoring and mine safety","exploration, research, finance and innovation","mine infrastructure and energy supply","mine operations and processing","mine waste management","mining vehicles, transport and equipment"]
   },
   {
     "en":"Nuclear",
@@ -93,7 +113,7 @@
   },
   {
     "en":"Rail",
-    "tags":["train","freight","wagon","steam","locomotive","tram","carriage","station"]
+    "tags":["train","freight","wagon","steam","locomotive","tram","carriage","station","railways","construction, fabrication and installation","operations and maintenance","planning, design and project delivery","strategic rail consultancy and advice","systems, rolling stock, equipment, plant and parts"]
   },
   {
     "en":"Renewable",
@@ -102,6 +122,10 @@
   {
     "en":"Retail",
     "tags":[""]
+  },
+  {
+    "en":"Security",
+    "tags":["cyber security","cyber professional services","endpoint security","identification, authentication and access control","internet of things (iot) security","network security","supervisory control and data acquisition (scada) and industrial control systems (ics)","threat intelligence, monitoring, detection and analysis","physical security","border security","first responders","infrastructure","major events security"]
   },
   {
     "en":"Software",
@@ -113,7 +137,7 @@
   },
   {
     "en":"Sports Events",
-    "tags":["football","rugby","tennis","cycling","basketball","netball","table tennis","gymnastics"]
+    "tags":["football","rugby","tennis","cycling","basketball","netball","table tennis","gymnastics","major sports events","sports infrastructure"]
   },
   {
     "en":"Tech Communications",
