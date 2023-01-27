@@ -133,7 +133,7 @@
   },
   {
     "en":"Space",
-    "tags":["rocket","propellant","satellite","orbital platforms","ground station","engineering"]
+    "tags":["rocket","propellant","satellite","orbital platforms","ground station","engineering","component manufacturing"]
   },
   {
     "en":"Sports Events",
@@ -141,10 +141,10 @@
   },
   {
     "en":"Tech Communications",
-    "tags":["telephone","telephony","VOIP","mobile phone"]
+    "tags":["telephone","telephony","VOIP","mobile phone","convergant","fixed line","mobile","wireless","IoT","Internet of things"]
   },
   {
     "en":"Tech Hardware",
-    "tags":["computer"]
+    "tags":["computer","data centres","Internet of things","IoT","photonics","robotics","semiconductors","sensors","telecommunications and electronics systems","electronic systems"]
   }
 ]
