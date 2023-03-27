@@ -1,0 +1,50 @@
+[
+  {
+    "en":"Wales",
+    "tags":["Aberyswyth","Aberaeron","Ceredigion","Cardiff","Swansea","Bangor","Newport (Wales)","Gwent","Glamorgan","Carmarthen","Powys","Newquay (Wales)"]
+  },
+  {
+    "en":"South West",
+    "tags":["Devon","Cornwall","Saint Austell","Somerset","Dorset","Wiltshire","Newquay","Plymouth","Exmoor","Poole","Southampton","Exmouth","Bristol","Gloucestershire","Newquay (South West)"]
+  },
+  {
+    "en":"Scotland",
+    "tags":["Glasgow","Edinburgh","Highlands","Aberdeen","Inverness"]
+  },
+  {
+    "en":"West Midlands",
+    "tags":["Staffs","Staffordshire","Herefordshire","Worcs","Warwickshire","Birmingham","Solihull","Coventry","Dudley","Sandwell","Walsall","Wolverhampton"]
+  },
+  {
+    "en":"London",
+    "tags":["Westminster","Islington","Brixton","Lambeth","Chelsea","City","Clerkenwell","Covent Garden","Docklands","Hackney","Greater London"]
+  },
+  {
+    "en":"East Midlands",
+    "tags":[]
+  },
+  {
+    "en":"North East",
+    "tags":[]
+  },
+  {
+    "en":"North West",
+    "tags":[]
+  },
+  {
+    "en":"Yorkshire and the Humber",
+    "tags":[]
+  },
+  {
+    "en":"East",
+    "tags":[]
+  },
+  {
+    "en":"South East",
+    "tags":[]
+  },
+  {
+    "en":"Northern Ireland",
+    "tags":[]
+  }
+]
